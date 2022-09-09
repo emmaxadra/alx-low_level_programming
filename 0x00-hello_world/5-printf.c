@@ -3,8 +3,8 @@
 /**
  * main - prints a proper grammar
  *
- * Description:using the main function
- * this peogram prints "proper grammar, but the outcome is a piece of art
+ * Description: using the main function
+ * this peogram prints "proper grammar  but the outcome is a piece of art
  * Reture: 0
  */
 int main(void)
