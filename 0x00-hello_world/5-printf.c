@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints a proper grammar
+ * main - printing the starting function
  *
- * Description: using the main function
- * this peogram prints "proper grammar  but the outcome is a piece of art
- * Reture: 0
+ * Description: to print proper grammar
+ * this program print grammar but the outcome is a piece of art
+ * Return:0
  */
 int main(void)
 {
-	printf("proper grammar, but the outcome is a piece of art");
+	printf("with proper grammar but the outcome is a piece of art");
 	reture (0);
-}
+} 
