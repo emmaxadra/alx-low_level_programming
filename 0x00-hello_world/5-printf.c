@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - printing the starting function
+ * main - printing the starting function
  *
  * Return:0 (successful) 
  */
