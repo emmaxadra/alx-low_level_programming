@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - printing the starting function
+ * main - print the sprint in the put function
  *
  * Description: using main function
- * this program print " program with proper grammar
- * Return: 0 (successful) 
+ * this program print "program with proper grammar
+ * Return: 0
  */
 int main(void)
 {
