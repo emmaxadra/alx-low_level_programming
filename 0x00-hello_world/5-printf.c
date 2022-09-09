@@ -3,7 +3,9 @@
 /**
  * main - printing the starting function
  *
- * Return:0 (successful) 
+ * Description: using main function
+ * this program print " program with proper grammar
+ * Return: 0 (successful) 
  */
 int main(void)
 {
