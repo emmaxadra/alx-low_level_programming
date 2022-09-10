@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - print the sprint in the put function
+ * main - print the proper grammar
  *
  * Description: using main function
- * this program print "program with proper grammar
+ * 
  * Return: 0
  */
 int main(void)
 {
-	printf("with proper grammar,but the outcome is a piece of art,\n");
+	printf("with proper grammar,but the outcome is a piece of art,");
 	return (0);
 } 
