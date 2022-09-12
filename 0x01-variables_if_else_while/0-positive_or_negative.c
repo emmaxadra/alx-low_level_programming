@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - priting the random number
+ * main - compile program if 0-positive_or_negative if (n < 0)
  * Description: using the main function
  *
  * Return: 0
