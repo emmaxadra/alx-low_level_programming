@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main-printing C program size
+ * main - entry point
  *
- * Description: this program print various types of computer
+ * Description: main function
  *
  * Return: 0
  */
