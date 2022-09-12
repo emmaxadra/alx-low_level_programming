@@ -22,6 +22,7 @@ int main(void)
 				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
 				if
+					(i != 18 || j != 19)
 				{
 					putchar(',');
 					putchar(' ');
