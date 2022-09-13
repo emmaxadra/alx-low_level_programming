@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet_×10 - print alphabet 10 times
+ * main - entry point
+ *
+ * print_alphabet_x10 - print alphabet 10 times
  *
  * Description: main function
  *
  * Return: 0
  */
-void print_alphabet_×10(void)
+void print_alphabet_x10(void)
 {
 	char i;
 	char h;
