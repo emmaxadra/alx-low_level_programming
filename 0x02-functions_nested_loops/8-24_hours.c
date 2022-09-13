@@ -5,6 +5,8 @@
  *
  * Description: using main function
  *
+ * Return: 0
+ *
  */
 void jack_bauer(void)
 {
