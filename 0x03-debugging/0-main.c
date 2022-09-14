@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main -tests function that prints if integers ispositive or negative
@@ -7,7 +7,6 @@
  * Description: main function
  *
  * Return: 0
- *
  */
 int main(void)
 {
