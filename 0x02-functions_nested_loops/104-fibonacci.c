@@ -16,12 +16,12 @@ int main(void)
 	float b = a + 1;
 	float c = a + b;
 
-	printf("%.Of, ", a);
-	printf("%.Of, ", b);
+	printf("%.Of ", a);
+	printf("%.Of ", b);
 	while (counter < 98)
 	{
 		counter++;
-		printf("%.Of", c);
+		printf("%.Of" c);
 		a = b;
 		b = c;
 		c = a + b;
