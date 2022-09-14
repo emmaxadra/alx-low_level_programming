@@ -3,6 +3,7 @@
 
 /**
  * main -tests function that prints if integers ispositive or negative
+ *Description: main function
  * Return: 0
  */
 int main(void)
