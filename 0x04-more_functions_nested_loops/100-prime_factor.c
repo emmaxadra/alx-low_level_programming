@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include "main.h"
+
 /**
  * main - main function
  *
- * Return: returns 0
+ * Return: 0
  */
 int main(void)
 {
