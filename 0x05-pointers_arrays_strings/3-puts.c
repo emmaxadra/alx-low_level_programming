@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _puts - prints a string and a new line
- * @str: pointer to a string to print
+ * _puts - it prints a string
+ * @str:string to print
  *
  * Description: prints a string
  * on success: return no error
@@ -14,7 +15,7 @@ void _puts(char *str)
 
 	while (*(str + i) != '\0')
 	{
-		(*(str + i));
+		putchar(*(str + i));
 		i++;
 	}
 	putchar(10);
