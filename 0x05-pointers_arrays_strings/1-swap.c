@@ -3,14 +3,15 @@
 
 /**
  * swap_int - swaps the values of a and b
- * @a: pointer 1
- * @b: pointer 2
+ * @a: first integer
+ * @b: second integer
  * Return: 0
  */
 
 Void swap_int(int *a, int *b)
 {
-	*a += *b;
-	*b = *a - *b;
-	*a = *a - *b;
+	int tmp = *a;
+
+	*a = *b;
+	*b = tmp;
 }
