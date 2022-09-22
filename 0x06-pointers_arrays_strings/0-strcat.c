@@ -3,14 +3,14 @@
 
 /**
  * _strcat - Concatenates @src to @dest
- * @dest: the destination string to be concatenated upon
  * @src: source string to append to @dest
+ * @dest: the destination string to be concatenated upon
  * Return: pointer to the resulting string
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int index = 0,
+	int index = 0;
 	int dest_len = 0;
 
 	while (dest[index++])
