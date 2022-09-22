@@ -5,7 +5,7 @@
  * string_toupper - changes all lowercase letters to uppercase
  * @str: string to be changed
  *
- * Return: a pointer to change string.
+ * Return: A pointer to change string.
  */
 char *string_toupper(char *str)
 {
@@ -16,7 +16,7 @@ char *string_toupper(char *str)
 		if (str[index] >= 'a' && str[index] <= 'z')
 			str[index] -= 32;
 
-		i++;
+		index++;
 	}
 
 	return (str);
