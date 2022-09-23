@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+Description: main - function
+
 int main(void)
 {
 	int n;
