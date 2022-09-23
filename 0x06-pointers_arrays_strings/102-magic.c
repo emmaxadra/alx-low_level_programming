@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-Description: main - function
+#include "main.h"
 
 int main(void)
 {
