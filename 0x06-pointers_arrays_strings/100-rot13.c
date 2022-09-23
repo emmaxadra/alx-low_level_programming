@@ -2,47 +2,29 @@
 #include <stdio.h>
 
 /**
- * rot13 - Encodes a string using rot13.
- * @str: the string to be encoded.
- *
- * Return: A pointer to the coded string.
+ * rot13 - function that encrypts the code
+ * @s: string to encrypt
+ * Return: char value
  */
-char *rot13(char *str)
+
+char *rot13(char s)
 {
-	int indx1 = 0, indx2;
-	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
-		'G', 'H', 'I', 'J', 'K', 'L',
-		'M', 'N', 'O', 'P', 'Q', 'R',
-		'S', 'T', 'U', 'V', 'W', 'X',
-		'Y', 'Z', 'a', 'b', 'c', 'd',
-		'e', 'f', 'g', 'h', 'i', 'j',
-		'k', 'l', 'm', 'n', 'o', 'p',
-		'q', 'r', 's', 't', 'u', 'v',
-		'w', 'x', 'y', 'z'};
-	char rot13key[52] = 'N', '0', 'P', 'Q', 'R', 'S',
-	     'T', 'U', 'V', 'W', 'X', 'Y',
-	     'Z', 'A', 'B', 'C', 'D', 'E',
-	     'F', 'G', 'H', 'I', 'J', 'K',
-	     'L', 'M', 'n', 'o', 'p', 'q',
-	     'r', 's', 't', 'u', 'v', 'w',
-	     'y', 'z', 'a', 'b', 'c', 'd',
-	     'e', 'f', 'g', 'h', 'i', 'j',
-	     'k', 'l', 'm',
+	char part1[52] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+	char part2[52] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 
-	     while (str[indx1])
-	     {
-		     for (indx2 = 0; indx2 < 52; indx2++)
-		     {
-			     if (str[indx1] == alphabet[indx2])
-			     {
-				     str[indx1] = rot13key[indx2];
-				     break;
-			     }
-		     }
+	int i;
+	int j = 0;
 
-		     indx1++;
-
-	     }
-	return (str);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; part1[j] != '\0'; j++)
+		{
+			if (s[i] == part1[j])
+			{
+				s[i] = part2[j];
+				break;
+			}
+		}
+	}
+	return (s);
 }
-
