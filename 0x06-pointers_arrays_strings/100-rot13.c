@@ -7,7 +7,7 @@
  * Return: char value
  */
 
-char *rot13(char s)
+char *rot13(char *s)
 {
 	char part1[52] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
 	char part2[52] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
