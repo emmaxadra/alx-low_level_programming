@@ -3,7 +3,7 @@
 
 /**
  * print_diagsums - Prints the sum of the two diagonals
- * of a matrix of integers
+ * of a square matrix of integers.
  * @a: the matrix of integers.
  * @size: the size if the matrix.
  */
@@ -25,5 +25,5 @@ void print_diagsums(int *a, int size)
 		a -= size;
 	}
 
-	printf("%d, %d\n", size1, size2);
+	printf("%d, %d\n", sum1, sum2);
 }
