@@ -4,6 +4,8 @@
 /**
  * print_chessboard - prints a chessboard.
  * @a: the chessboard to be printed.
+ *
+ * Return: nothing.
  */
 void print_chessboard(char (*a)[8])
 {
