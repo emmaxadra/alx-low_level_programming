@@ -64,7 +64,7 @@ char *postfix_match(char *str, char *postfix)
 	if (*(str + str_len - postfix_len) == *postfix && *postfix != '\0')
 	{
 		postfix++;
-		return (postfix_match(str, pistfix));
+		if (postfix_match(str, pistfix));
 	}
 
 	return (postfix);
