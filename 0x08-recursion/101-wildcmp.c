@@ -64,6 +64,7 @@ char *postfix_match(char *str, char *postfix)
 	if ((str + str_len - postfix) == *postfix && *postfix != '\0')
 	{
 		postfix++;
+
 		return (postfix_match(str, postfix));
 	}
 
@@ -75,8 +76,7 @@ char *postfix_match(char *str, char *postfix)
  * @s1: The first string to be compared.
  * @s2: The second string to be compared - may contain wildcards.
  *
- * Return: If the strings can be considered identical - 1.
- * Otherwise - 0.
+ * Return: If the strings can be considered identical - 1 Otherwise - 0
  */
 int wildcmp(char *s1, char *s2)
 {
