@@ -1,14 +1,14 @@
+#include "main h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "main.h"
 
 /**
  * main - Prints the sum of args positive numbers
  * @argc: argument count
  * @argv: argument vector
  *
- * Return: 0
+ * Return: always 0
  */
 
 int main(int argc, char *argv[])
@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 				if (e[k] < 48 || e[k] > 57)
 				{
 					printf("Error\n");
+					return (1);
 				}
 			}
 
