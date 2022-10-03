@@ -3,35 +3,52 @@
 #include <stdlib.h>
 
 /**
- * str_concat - Concatenates two strings.
- * @s1: The string to be concatenated upon.
- * @s2: The string to be concatenated to s1.
+ * str_concat - Concatenates two strings of any size
+ * @s1: the first string to concatenate
+ * @s2: the second string to concatenate
  *
- * Return: If concatenation fails - NULL.
- * Otherwise - a pointer the newly-allocated space in memory
- * containing the concatenated strings.
+ * Return: the two strings concatenated
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *concat_str;
-	int index, concat_index = 0, len = 0;
+	int i = 0, j = 0, k = 0, l = 0;
+	char *s;
+
+	if (s1 == NULL)
+		s1 = "";
 
 	if (s2 == NULL)
 		s2 = "";
 
-	for (index = 0; s1[index] || s2[index]; index++)
-		len++;
+	while (s1[i])
+		i++;
 
-	concat_str = malloc(sizeof(char) * len);
+	while (s2[j])
+		j++;
 
-	if (concat_str == NULL)
+	l = i + j;
+	s = malloc((sizeof(char) * 1) + 1);
+
+	if (s == NULL)
 		return (NULL);
 
-	for (index = 0; s1[index]; index++)
-		concat_str[concat_index++] = s1[index];
+	j = 0;
 
-	for (index = 0; s2[index]; index++)
-		concat_str[concat_index++] = s2[index];
+	while (k < l)
+	{
+		if (k <= i)
+			s[k] = s1[k];
 
-	return (concat_str);
+		if (k >= i)
+		{
+			s[k] = s2[j];
+
+			j++;
+		}
+
+		k++;
+	}
+
+	s[k] = '/0';
+	return (s);
 }
