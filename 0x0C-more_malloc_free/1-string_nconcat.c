@@ -46,5 +46,4 @@ while (j < l)
 j++;
 }
 str[j] = '\0';
-return (str);
-}
+return (
