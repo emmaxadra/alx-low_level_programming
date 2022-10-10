@@ -1,7 +1,7 @@
 #ifndef _HEADER_
 #define _HEADER_
-#ifndef "PI_H"
-#define "PI_H"
+#ifndef "Pi_h"
+#define "Pi_h"
 #include <stdio.h>
 
 /*
