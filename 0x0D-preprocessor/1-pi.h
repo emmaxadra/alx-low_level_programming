@@ -1,5 +1,3 @@
-#ifndef _HEADER_
-#define _HEADER_
 #ifndef "Pi_h"
 #define "Pi_h"
 #include <stdio.h>
