@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "dog.h"
+#include _HEADER_
+#include _HEADER_
 
 /*
  * File: dog.h
