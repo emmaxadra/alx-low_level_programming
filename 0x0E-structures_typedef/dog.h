@@ -2,23 +2,23 @@
 #define STRTYP
 
 /**
- * struct dog - struct dog
+ * struct dog - struct dog
  * @name: name
  * @age: age
- * @owner: owner
- * Description: the struct is for a dog
+ * @owner: owner
+ * Description: this struct is for dog
  */
+
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
-
-typedef struct dog dog_t;
+typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
+void print_dog(struct dog *dog);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
