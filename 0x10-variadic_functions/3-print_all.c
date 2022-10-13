@@ -79,16 +79,15 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == *(ops[j].c))
 			{
-				if (format[i] == *(ops[j].c))
-				{
-					printf("%s", sep);
-					ops[j].f(anyargs);
-				}
-				j++;
+				printf("%s", sep);
+				ops[j].f(anyArgs);
 			}
-			sep = sep2;
-			i++;
+			j++;
 		}
-		printf("\n");
-		va_end(anyArgs);
+		sep = sep2;
+		i++;
 	}
+	printf("\n");
+	va_end(anyArgs);
+}
+
