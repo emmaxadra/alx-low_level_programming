@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
+
 /**
  * list_len - length of list_t struct
  * @h: head node
