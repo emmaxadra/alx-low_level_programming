@@ -1,13 +1,9 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- *
- * main - entry point
- *
- * Description: main function
- *
- * Return: 0
- *
+ * main - Entry point
+ * Description: Print base 16 numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -17,7 +13,7 @@ int main(void)
 	while (d <= '9')
 	{
 		putchar(d);
-		d++
+		d++;
 	}
 	for (c = 'a'; c <= 'f'; c++)
 	{
