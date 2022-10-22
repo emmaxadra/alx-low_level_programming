@@ -1,16 +1,17 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * print_number - prints an integer.
- * @n: the integer to be printed.
- *
+ * print_number - Prints an integer.
+ * @n: The integer to be printed.
  */
+
 void print_number(int n)
 {
 	unsigned int num = n;
 
 	if (n < 0)
 	{
-		_putchar('_');
+		_putchar('-');
 		num = -num;
 	}
 
