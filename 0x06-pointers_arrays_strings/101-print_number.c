@@ -1,4 +1,4 @@
-#include "holberton.h"
+main.h"
 
 /**
  * print_number - Prints an integer.
