@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include "main.h"
-
 /**
  * main - main function
  *
@@ -24,11 +22,12 @@ int main(void)
 				printf("Buzz");
 			}
 		} else
+		{
 			printf("%d", i);
+		}
+		if (i != 100)
+			printf(" ");
 	}
-	if (i != 100)
-		printf(" ");
-}
-printf("\n");
-return (0);
+	printf("\n");
+	return (0);
 }
